@@ -1,6 +1,13 @@
 import MobileMenuScript from './MobileMenuScript';
 import Logo from '../../assets/logo.png';
-const NavbarMobile = () => {
+const NavbarMobile = ({ refs }) => {
+  const [HeroRef, AttractionsRef, AnimationsRef, NewsRef] = refs;
+  const handleScroll = item => {
+    window.scrollTo({
+      top: item.current.offsetTop - 60,
+      behavior: 'smooth',
+    });
+  };
   return (
     <>
       <nav className="navbar-mobile">
@@ -14,28 +21,68 @@ const NavbarMobile = () => {
       <div className="mobile-menu">
         <ul>
           <li>
-            <a href="">Łeba Park</a>
+            <button
+              className="mobile-menu-link"
+              onClick={() => handleScroll(HeroRef)}
+            >
+              Łeba Park
+            </button>
           </li>
           <li>
-            <a href="">Atrakcje</a>
+            <button
+              className="mobile-menu-link"
+              onClick={() => handleScroll(AttractionsRef)}
+            >
+              Atrakcje
+            </button>
           </li>
           <li>
-            <a href="">Animacje</a>
+            <button
+              className="mobile-menu-link"
+              onClick={() => handleScroll(AnimationsRef)}
+            >
+              Animacje
+            </button>
           </li>
           <li>
-            <a href="">Aktualności</a>
+            <button
+              className="mobile-menu-link"
+              onClick={() => handleScroll(NewsRef)}
+            >
+              Aktualności
+            </button>
           </li>
           <li>
-            <a href="">Oferty specjalne</a>
+            <button
+              className="mobile-menu-link"
+              onClick={() => handleScroll(HeroRef)}
+            >
+              Oferty specjalne
+            </button>
           </li>
           <li>
-            <a href="">Zaplanuj wizytę</a>
+            <button
+              className="mobile-menu-link"
+              onClick={() => handleScroll(HeroRef)}
+            >
+              Zaplanuj wizytę
+            </button>
           </li>
           <li>
-            <a href="">Kup bilet</a>
+            <button
+              className="mobile-menu-link"
+              onClick={() => handleScroll(HeroRef)}
+            >
+              Kup bilet
+            </button>
           </li>
           <li>
-            <a href="">Kontakt</a>
+            <button
+              className="mobile-menu-link"
+              onClick={() => handleScroll(HeroRef)}
+            >
+              Kontakt
+            </button>
           </li>
         </ul>
         <div className="menu-logo">

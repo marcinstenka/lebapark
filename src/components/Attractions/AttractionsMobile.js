@@ -1,6 +1,6 @@
 import AttractionsStart from '../../assets/attractions_start.png';
 import AttractionsHeader from '../../assets/attractions_header.png';
-import Separators from '../../assets/separators.png';
+import AttractionsSeparator from '../../assets/attractions-separator.png';
 import Attraction1 from './../../assets/attraction1.png';
 import Attraction2 from './../../assets/attraction2.png';
 import Attraction3 from './../../assets/attraction3.png';
@@ -17,13 +17,13 @@ import Attraction15 from './../../assets/attraction15.png';
 import Attraction16 from './../../assets/attraction16.png';
 import AttractionsEnd from '../../assets/attractions_end.png';
 
-const AttractionsMobile = () => {
+const AttractionsMobile = ({ AttractionsRef }) => {
   return (
     <div className="attractions-container">
       <div className="attractions-start">
         <img src={AttractionsStart} alt="Spotkaj dinozaury w skali 1:1!" />
       </div>
-      <div className="attractions-header">
+      <div className="attractions-header" ref={AttractionsRef}>
         <img src={AttractionsHeader} alt="Atrakcje" />
       </div>
       <div className="attraction">
@@ -36,8 +36,8 @@ const AttractionsMobile = () => {
           komnat wszystkich odwiedzających nasz Park. Takie show trzeba przeżyć!
         </div>
       </div>
-      <div className="separatos">
-        <img src={Separators} alt="" />
+      <div className="attractions-separator">
+        <img src={AttractionsSeparator} alt="" />
       </div>
       <div className="attraction">
         <h3 className="attraction-name">Bajlandia</h3>
@@ -50,8 +50,8 @@ const AttractionsMobile = () => {
           ukochanych kreskówek na wyciągnięcie ręki.
         </div>
       </div>
-      <div className="separatos">
-        <img src={Separators} alt="" />
+      <div className="attractions-separator">
+        <img src={AttractionsSeparator} alt="" />
       </div>
       <div className="attraction">
         <h3 className="attraction-name">Minigolf</h3>
@@ -67,8 +67,8 @@ const AttractionsMobile = () => {
           gry!
         </div>
       </div>
-      <div className="separatos">
-        <img src={Separators} alt="" />
+      <div className="attractions-separator">
+        <img src={AttractionsSeparator} alt="" />
       </div>
       <div className="attraction">
         <h3 className="attraction-name attraction-name-noimg">
@@ -81,8 +81,8 @@ const AttractionsMobile = () => {
           roślinności lasu, a także dowiesz się, jak powstało życie na ziemi.
         </div>
       </div>
-      <div className="separatos">
-        <img src={Separators} alt="" />
+      <div className="attractions-separator">
+        <img src={AttractionsSeparator} alt="" />
       </div>
       <div className="attraction">
         <h3 className="attraction-name attraction-name-noimg">Kino 7D max</h3>
@@ -91,8 +91,8 @@ const AttractionsMobile = () => {
           specjalne. Czegoś takiego jeszcze nie widziałeś.
         </div>
       </div>
-      <div className="separatos">
-        <img src={Separators} alt="" />
+      <div className="attractions-separator">
+        <img src={AttractionsSeparator} alt="" />
       </div>
       <div className="attraction">
         <h3 className="attraction-name">Pojazdy Flinstonów</h3>
@@ -103,8 +103,8 @@ const AttractionsMobile = () => {
           Z epoki Kredy prosto do epoki kamienia łupanego!
         </div>
       </div>
-      <div className="separatos">
-        <img src={Separators} alt="" />
+      <div className="attractions-separator">
+        <img src={AttractionsSeparator} alt="" />
       </div>
       <div className="attraction">
         <h3 className="attraction-name">Kopalnia złota</h3>
@@ -115,8 +115,8 @@ const AttractionsMobile = () => {
           Wstąp w szeregi młodych zdobywców i zdobądź własny złoty piasek!
         </div>
       </div>
-      <div className="separatos">
-        <img src={Separators} alt="" />
+      <div className="attractions-separator">
+        <img src={AttractionsSeparator} alt="" />
       </div>
       <div className="attraction">
         <h3 className="attraction-name">Rowery wodne</h3>
@@ -128,8 +128,8 @@ const AttractionsMobile = () => {
           takich atrakcji trudno szukać gdzie indziej.
         </div>
       </div>
-      <div className="separatos">
-        <img src={Separators} alt="" />
+      <div className="attractions-separator">
+        <img src={AttractionsSeparator} alt="" />
       </div>
       <div className="attraction">
         <h3 className="attraction-name">Rekreacyjne łowisko ryb</h3>
@@ -141,8 +141,8 @@ const AttractionsMobile = () => {
           zapewniamy sprzętu i zanęty). Idealny relaks dla zapalonych wędkarzy.
         </div>
       </div>
-      <div className="separatos">
-        <img src={Separators} alt="" />
+      <div className="attractions-separator">
+        <img src={AttractionsSeparator} alt="" />
       </div>
       <div className="attraction">
         <h3 className="attraction-name attraction-name-noimg">
@@ -155,8 +155,8 @@ const AttractionsMobile = () => {
           czym jest “złudzenie nieskończonego lustra”!
         </div>
       </div>
-      <div className="separatos">
-        <img src={Separators} alt="" />
+      <div className="attractions-separator">
+        <img src={AttractionsSeparator} alt="" />
       </div>
       <div className="attraction">
         <h3 className="attraction-name">Ogromne zjeżdżalnie wodne</h3>
@@ -171,8 +171,8 @@ const AttractionsMobile = () => {
           klasyki.
         </div>
       </div>
-      <div className="separatos">
-        <img src={Separators} alt="" />
+      <div className="attractions-separator">
+        <img src={AttractionsSeparator} alt="" />
       </div>
       <div className="attraction">
         <h3 className="attraction-name">Zjeżdżalnia Boomerang</h3>
@@ -187,8 +187,8 @@ const AttractionsMobile = () => {
           zjazd dzieci pod opieką dorosłego (do 10 roku życia).
         </div>
       </div>
-      <div className="separatos">
-        <img src={Separators} alt="" />
+      <div className="attractions-separator">
+        <img src={AttractionsSeparator} alt="" />
       </div>
       <div className="attraction">
         <h3 className="attraction-name">Koło młyńskie</h3>
@@ -200,8 +200,8 @@ const AttractionsMobile = () => {
           nieopodal naszych zjeżdżalni. Widok z góry zapiera dech w piersiach.
         </div>
       </div>
-      <div className="separatos">
-        <img src={Separators} alt="" />
+      <div className="attractions-separator">
+        <img src={AttractionsSeparator} alt="" />
       </div>
       <div className="attraction">
         <h3 className="attraction-name attraction-name-noimg">Plac zabaw</h3>
@@ -212,8 +212,8 @@ const AttractionsMobile = () => {
           zdobywają linaria i mini ścianki.
         </div>
       </div>
-      <div className="separatos">
-        <img src={Separators} alt="" />
+      <div className="attractions-separator">
+        <img src={AttractionsSeparator} alt="" />
       </div>
       <div className="attraction">
         <h3 className="attraction-name">Dinusiowa kolejka</h3>
@@ -225,8 +225,8 @@ const AttractionsMobile = () => {
           najmłodszych (zlokalizowana przy największych dinozaurach).
         </div>
       </div>
-      <div className="separatos">
-        <img src={Separators} alt="" />
+      <div className="attractions-separator">
+        <img src={AttractionsSeparator} alt="" />
       </div>
       <div className="attraction">
         <h3 className="attraction-name">Kolejka Czerwonego Kapturka</h3>
@@ -238,8 +238,8 @@ const AttractionsMobile = () => {
           zawiezie cię w krainę Czerwonego Kapturka.
         </div>
       </div>
-      <div className="separatos">
-        <img src={Separators} alt="" />
+      <div className="attractions-separator">
+        <img src={AttractionsSeparator} alt="" />
       </div>
       <div className="attraction-last">
         <h3 className="attraction-name">Szlak latarni morskich</h3>

@@ -1,9 +1,9 @@
 import Logo from '../../assets/logo.png';
 import Covid from '../../assets/hero-covid.png';
 import Lead from '../../assets/lead.png';
-const Hero = () => {
+const Hero = ({ HeroRef }) => {
   return (
-    <div className="hero-container">
+    <div className="hero-container" ref={HeroRef}>
       <div className="hero-logo">
         <img src={Logo} alt="Logo parku dinozaurów Łeba" />
       </div>

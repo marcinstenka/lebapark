@@ -1,7 +1,9 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
-import Atractions from './components/Atractions/Atractions';
+import Attractions from './components/Attractions/Attractions';
+import Animations from './components/Animations/Animations';
+import News from './components/News/News';
 // function which limits resize event occurrence
 function debounce(fn, ms) {
   let timer;
@@ -28,11 +30,18 @@ const App = () => {
     }
     return () => window.removeEventListener('resize', debouncedHandleResize);
   });
+  const HeroRef = useRef();
+  const AttractionsRef = useRef();
+  const AnimationsRef = useRef();
+  const NewsRef = useRef();
+  const refs = [HeroRef, AttractionsRef, AnimationsRef, NewsRef];
   return (
     <>
-      <Navbar isMobile={isMobile} />
-      <Hero />
-      <Atractions isMobile={isMobile} />
+      <Navbar isMobile={isMobile} refs={refs} />
+      <Hero HeroRef={HeroRef} />
+      <Attractions isMobile={isMobile} AttractionsRef={AttractionsRef} />
+      <Animations AnimationsRef={AnimationsRef} />
+      <News NewsRef={NewsRef} />
     </>
   );
 };
