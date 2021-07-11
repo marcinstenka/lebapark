@@ -6,7 +6,7 @@ const Attractions = ({ isMobile, AttractionsRef }) => {
       {isMobile ? (
         <AttractionsMobile AttractionsRef={AttractionsRef} />
       ) : (
-        <AttractionsDesktop />
+        <AttractionsDesktop AttractionsRef={AttractionsRef} />
       )}
     </>
   );

@@ -1,12 +1,30 @@
+import { useEffect, useState } from 'react';
 import AnimationsHeader from '../../assets/animations_header.png';
 import Animation1 from '../../assets/animation1.png';
 import Animation2 from '../../assets/animation2.png';
+import { Scene } from 'react-scrollmagic';
+
 const Animations = ({ AnimationsRef }) => {
+  const [duration, setDuration] = useState(0);
+  useEffect(() => {
+    const height =
+      document.querySelector('.animations-container').offsetHeight + 100;
+    setDuration(height);
+  }, [duration]);
+  function HandleChuj() {
+    return duration;
+  }
   return (
-    <div className="animations-container" ref={AnimationsRef}>
-      <div className="animations-header">
-        <img src={AnimationsHeader} alt="" />
-      </div>
+    <div ref={AnimationsRef} className="animations-container">
+      <Scene
+        duration={HandleChuj}
+        classToggle={['.nav-1', 'active']}
+        indicators={true}
+      >
+        <div className="animations-header">
+          <img src={AnimationsHeader} alt="" />
+        </div>
+      </Scene>
       <div className="animation animation-first">
         <h3 className="animation-header">
           Dookoła świata ze Spryciulą Zwinniulą

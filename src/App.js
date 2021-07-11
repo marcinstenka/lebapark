@@ -6,6 +6,8 @@ import Animations from './components/Animations/Animations';
 import News from './components/News/News';
 import SpecialOffers from './components/SpecialOffers/SpecialOffers';
 import PlanYourVisit from './components/PlanYourVisit/PlanYourVisit';
+import Contact from './components/Contact/Contact';
+import { Controller } from 'react-scrollmagic';
 // function which limits resize event occurrence
 function debounce(fn, ms) {
   let timer;
@@ -38,6 +40,7 @@ const App = () => {
   const NewsRef = useRef();
   const OffersRef = useRef();
   const VisitRef = useRef();
+  const ContactRef = useRef();
   const refs = [
     HeroRef,
     AttractionsRef,
@@ -45,9 +48,10 @@ const App = () => {
     NewsRef,
     OffersRef,
     VisitRef,
+    ContactRef,
   ];
   return (
-    <>
+    <Controller>
       <Navbar isMobile={isMobile} refs={refs} />
       <div className="content">
         <Hero HeroRef={HeroRef} />
@@ -56,8 +60,12 @@ const App = () => {
         <News NewsRef={NewsRef} />
         <SpecialOffers OffersRef={OffersRef} />
         <PlanYourVisit VisitRef={VisitRef} AttractionsRef={AttractionsRef} />
+        <Contact ContactRef={ContactRef} />
       </div>
-    </>
+      <footer>
+        <p>Wszystkie prawa zastrzeżone. Copyright by Łeba Park © 2008-2021.</p>
+      </footer>
+    </Controller>
   );
 };
 

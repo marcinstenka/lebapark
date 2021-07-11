@@ -8,7 +8,7 @@ import ParkMap from '../../assets/mapa-parku.jpg';
 const PlanYourVisit = ({ VisitRef, AttractionsRef }) => {
   return (
     <div className="visit-container" ref={VisitRef}>
-      <div className="visit-img">
+      <div className="visit-header">
         <img src={VisitHeader1} alt="Zaplanuj swoją wizytę." />
       </div>
       <p className="visit-text">
@@ -42,7 +42,7 @@ const PlanYourVisit = ({ VisitRef, AttractionsRef }) => {
         zajętości pojazdów).
       </p>
       <div className="visit-item">
-        <div className="visit-img">
+        <div className="visit-header">
           <img src={VisitHeader2} alt="Kalendarz" />
         </div>
         <h4>22 – 23 maja: 9:00 – 17:00</h4>
@@ -56,7 +56,7 @@ const PlanYourVisit = ({ VisitRef, AttractionsRef }) => {
         <h4>od 27 września park jest nieczynny</h4>
       </div>
       <div className="visit-item">
-        <div className="visit-img">
+        <div className="visit-header">
           <img src={VisitHeader3} alt="Kalendarz" />
         </div>
         <h4>bilet normalny: 85 zł</h4>
@@ -98,8 +98,8 @@ const PlanYourVisit = ({ VisitRef, AttractionsRef }) => {
         </a>
       </div>
       <div className="visit-item">
-        <h3 className="visit-header">Informacje dodatkowe</h3>
-        <div className="visit-img">
+        <h3 className="visit-additional">Informacje dodatkowe</h3>
+        <div className="visit-header">
           <img src={VisitHeader4} alt="Dodatkowe informacj, mapa parku" />
         </div>
         <ul>
