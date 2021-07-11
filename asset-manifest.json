@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/lebapark/static/css/main.5ec00e68.chunk.css",
-    "main.js": "/lebapark/static/js/main.97d20e74.chunk.js",
-    "main.js.map": "/lebapark/static/js/main.97d20e74.chunk.js.map",
+    "main.css": "/lebapark/static/css/main.3b098eaa.chunk.css",
+    "main.js": "/lebapark/static/js/main.8b7cf627.chunk.js",
+    "main.js.map": "/lebapark/static/js/main.8b7cf627.chunk.js.map",
     "runtime-main.js": "/lebapark/static/js/runtime-main.8347ba8b.js",
     "runtime-main.js.map": "/lebapark/static/js/runtime-main.8347ba8b.js.map",
     "static/js/2.79fc7add.chunk.js": "/lebapark/static/js/2.79fc7add.chunk.js",
     "static/js/2.79fc7add.chunk.js.map": "/lebapark/static/js/2.79fc7add.chunk.js.map",
     "index.html": "/lebapark/index.html",
-    "static/css/main.5ec00e68.chunk.css.map": "/lebapark/static/css/main.5ec00e68.chunk.css.map",
+    "static/css/main.3b098eaa.chunk.css.map": "/lebapark/static/css/main.3b098eaa.chunk.css.map",
     "static/js/2.79fc7add.chunk.js.LICENSE.txt": "/lebapark/static/js/2.79fc7add.chunk.js.LICENSE.txt",
     "static/media/animation1.5a09514b.png": "/lebapark/static/media/animation1.5a09514b.png",
     "static/media/animation2.16509494.png": "/lebapark/static/media/animation2.16509494.png",
@@ -27,22 +27,31 @@
     "static/media/attraction5.4055363d.png": "/lebapark/static/media/attraction5.4055363d.png",
     "static/media/attraction6.c057a756.png": "/lebapark/static/media/attraction6.c057a756.png",
     "static/media/attraction7.8ebb52ac.png": "/lebapark/static/media/attraction7.8ebb52ac.png",
-    "static/media/attractions-separator.eddf4fcc.png": "/lebapark/static/media/attractions-separator.eddf4fcc.png",
+    "static/media/attractions-separator1.7d887b8a.png": "/lebapark/static/media/attractions-separator1.7d887b8a.png",
+    "static/media/attractions-separator2.0f3a05ea.png": "/lebapark/static/media/attractions-separator2.0f3a05ea.png",
     "static/media/attractions_end.03818e76.png": "/lebapark/static/media/attractions_end.03818e76.png",
     "static/media/attractions_header.28d82a3e.png": "/lebapark/static/media/attractions_header.28d82a3e.png",
     "static/media/attractions_start.5551a2e9.png": "/lebapark/static/media/attractions_start.5551a2e9.png",
     "static/media/hero-covid.e4b7256d.png": "/lebapark/static/media/hero-covid.e4b7256d.png",
     "static/media/lead.e618d21b.png": "/lebapark/static/media/lead.e618d21b.png",
     "static/media/logo.6483c6f5.png": "/lebapark/static/media/logo.6483c6f5.png",
+    "static/media/mapa-parku.e4fcc22a.jpg": "/lebapark/static/media/mapa-parku.e4fcc22a.jpg",
     "static/media/news1.5084ed97.png": "/lebapark/static/media/news1.5084ed97.png",
     "static/media/news2.767c3cc7.png": "/lebapark/static/media/news2.767c3cc7.png",
     "static/media/news3.517c052d.png": "/lebapark/static/media/news3.517c052d.png",
-    "static/media/news4.5609091f.png": "/lebapark/static/media/news4.5609091f.png"
+    "static/media/news4.5609091f.png": "/lebapark/static/media/news4.5609091f.png",
+    "static/media/specialOffers-header.6184eea1.png": "/lebapark/static/media/specialOffers-header.6184eea1.png",
+    "static/media/visit-header1.87c55d8b.png": "/lebapark/static/media/visit-header1.87c55d8b.png",
+    "static/media/visit-header2.6254b28d.png": "/lebapark/static/media/visit-header2.6254b28d.png",
+    "static/media/visit-header3.eaa90be0.png": "/lebapark/static/media/visit-header3.eaa90be0.png",
+    "static/media/visit-header4.96ae9ad6.png": "/lebapark/static/media/visit-header4.96ae9ad6.png",
+    "static/media/visit-link1.a4fbf060.png": "/lebapark/static/media/visit-link1.a4fbf060.png",
+    "static/media/visit-link2.4093e20f.png": "/lebapark/static/media/visit-link2.4093e20f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8347ba8b.js",
     "static/js/2.79fc7add.chunk.js",
-    "static/css/main.5ec00e68.chunk.css",
-    "static/js/main.97d20e74.chunk.js"
+    "static/css/main.3b098eaa.chunk.css",
+    "static/js/main.8b7cf627.chunk.js"
   ]
 }
