@@ -4,6 +4,8 @@ import Hero from './components/Hero/Hero';
 import Attractions from './components/Attractions/Attractions';
 import Animations from './components/Animations/Animations';
 import News from './components/News/News';
+import SpecialOffers from './components/SpecialOffers/SpecialOffers';
+import PlanYourVisit from './components/PlanYourVisit/PlanYourVisit';
 // function which limits resize event occurrence
 function debounce(fn, ms) {
   let timer;
@@ -34,14 +36,27 @@ const App = () => {
   const AttractionsRef = useRef();
   const AnimationsRef = useRef();
   const NewsRef = useRef();
-  const refs = [HeroRef, AttractionsRef, AnimationsRef, NewsRef];
+  const OffersRef = useRef();
+  const VisitRef = useRef();
+  const refs = [
+    HeroRef,
+    AttractionsRef,
+    AnimationsRef,
+    NewsRef,
+    OffersRef,
+    VisitRef,
+  ];
   return (
     <>
       <Navbar isMobile={isMobile} refs={refs} />
-      <Hero HeroRef={HeroRef} />
-      <Attractions isMobile={isMobile} AttractionsRef={AttractionsRef} />
-      <Animations AnimationsRef={AnimationsRef} />
-      <News NewsRef={NewsRef} />
+      <div className="content">
+        <Hero HeroRef={HeroRef} />
+        <Attractions isMobile={isMobile} AttractionsRef={AttractionsRef} />
+        <Animations AnimationsRef={AnimationsRef} />
+        <News NewsRef={NewsRef} />
+        <SpecialOffers OffersRef={OffersRef} />
+        <PlanYourVisit VisitRef={VisitRef} AttractionsRef={AttractionsRef} />
+      </div>
     </>
   );
 };

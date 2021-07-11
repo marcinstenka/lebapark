@@ -1,6 +1,7 @@
 import AttractionsStart from '../../assets/attractions_start.png';
 import AttractionsHeader from '../../assets/attractions_header.png';
-import AttractionsSeparator from '../../assets/attractions-separator.png';
+import AttractionsSeparator1 from '../../assets/attractions-separator1.png';
+import AttractionsSeparator2 from '../../assets/attractions-separator2.png';
 import Attraction1 from './../../assets/attraction1.png';
 import Attraction2 from './../../assets/attraction2.png';
 import Attraction3 from './../../assets/attraction3.png';
@@ -37,7 +38,7 @@ const AttractionsMobile = ({ AttractionsRef }) => {
         </div>
       </div>
       <div className="attractions-separator">
-        <img src={AttractionsSeparator} alt="" />
+        <img src={AttractionsSeparator1} alt="" />
       </div>
       <div className="attraction">
         <h3 className="attraction-name">Bajlandia</h3>
@@ -51,7 +52,7 @@ const AttractionsMobile = ({ AttractionsRef }) => {
         </div>
       </div>
       <div className="attractions-separator">
-        <img src={AttractionsSeparator} alt="" />
+        <img src={AttractionsSeparator2} alt="" />
       </div>
       <div className="attraction">
         <h3 className="attraction-name">Minigolf</h3>
@@ -68,7 +69,7 @@ const AttractionsMobile = ({ AttractionsRef }) => {
         </div>
       </div>
       <div className="attractions-separator">
-        <img src={AttractionsSeparator} alt="" />
+        <img src={AttractionsSeparator1} alt="" />
       </div>
       <div className="attraction">
         <h3 className="attraction-name attraction-name-noimg">
@@ -82,7 +83,7 @@ const AttractionsMobile = ({ AttractionsRef }) => {
         </div>
       </div>
       <div className="attractions-separator">
-        <img src={AttractionsSeparator} alt="" />
+        <img src={AttractionsSeparator2} alt="" />
       </div>
       <div className="attraction">
         <h3 className="attraction-name attraction-name-noimg">Kino 7D max</h3>
@@ -92,7 +93,7 @@ const AttractionsMobile = ({ AttractionsRef }) => {
         </div>
       </div>
       <div className="attractions-separator">
-        <img src={AttractionsSeparator} alt="" />
+        <img src={AttractionsSeparator1} alt="" />
       </div>
       <div className="attraction">
         <h3 className="attraction-name">Pojazdy Flinstonów</h3>
@@ -104,7 +105,7 @@ const AttractionsMobile = ({ AttractionsRef }) => {
         </div>
       </div>
       <div className="attractions-separator">
-        <img src={AttractionsSeparator} alt="" />
+        <img src={AttractionsSeparator2} alt="" />
       </div>
       <div className="attraction">
         <h3 className="attraction-name">Kopalnia złota</h3>
@@ -116,7 +117,7 @@ const AttractionsMobile = ({ AttractionsRef }) => {
         </div>
       </div>
       <div className="attractions-separator">
-        <img src={AttractionsSeparator} alt="" />
+        <img src={AttractionsSeparator1} alt="" />
       </div>
       <div className="attraction">
         <h3 className="attraction-name">Rowery wodne</h3>
@@ -129,7 +130,7 @@ const AttractionsMobile = ({ AttractionsRef }) => {
         </div>
       </div>
       <div className="attractions-separator">
-        <img src={AttractionsSeparator} alt="" />
+        <img src={AttractionsSeparator2} alt="" />
       </div>
       <div className="attraction">
         <h3 className="attraction-name">Rekreacyjne łowisko ryb</h3>
@@ -142,7 +143,7 @@ const AttractionsMobile = ({ AttractionsRef }) => {
         </div>
       </div>
       <div className="attractions-separator">
-        <img src={AttractionsSeparator} alt="" />
+        <img src={AttractionsSeparator1} alt="" />
       </div>
       <div className="attraction">
         <h3 className="attraction-name attraction-name-noimg">
@@ -156,7 +157,7 @@ const AttractionsMobile = ({ AttractionsRef }) => {
         </div>
       </div>
       <div className="attractions-separator">
-        <img src={AttractionsSeparator} alt="" />
+        <img src={AttractionsSeparator2} alt="" />
       </div>
       <div className="attraction">
         <h3 className="attraction-name">Ogromne zjeżdżalnie wodne</h3>
@@ -172,7 +173,7 @@ const AttractionsMobile = ({ AttractionsRef }) => {
         </div>
       </div>
       <div className="attractions-separator">
-        <img src={AttractionsSeparator} alt="" />
+        <img src={AttractionsSeparator1} alt="" />
       </div>
       <div className="attraction">
         <h3 className="attraction-name">Zjeżdżalnia Boomerang</h3>
@@ -188,7 +189,7 @@ const AttractionsMobile = ({ AttractionsRef }) => {
         </div>
       </div>
       <div className="attractions-separator">
-        <img src={AttractionsSeparator} alt="" />
+        <img src={AttractionsSeparator2} alt="" />
       </div>
       <div className="attraction">
         <h3 className="attraction-name">Koło młyńskie</h3>
@@ -201,7 +202,7 @@ const AttractionsMobile = ({ AttractionsRef }) => {
         </div>
       </div>
       <div className="attractions-separator">
-        <img src={AttractionsSeparator} alt="" />
+        <img src={AttractionsSeparator1} alt="" />
       </div>
       <div className="attraction">
         <h3 className="attraction-name attraction-name-noimg">Plac zabaw</h3>
@@ -213,7 +214,7 @@ const AttractionsMobile = ({ AttractionsRef }) => {
         </div>
       </div>
       <div className="attractions-separator">
-        <img src={AttractionsSeparator} alt="" />
+        <img src={AttractionsSeparator2} alt="" />
       </div>
       <div className="attraction">
         <h3 className="attraction-name">Dinusiowa kolejka</h3>
@@ -226,7 +227,7 @@ const AttractionsMobile = ({ AttractionsRef }) => {
         </div>
       </div>
       <div className="attractions-separator">
-        <img src={AttractionsSeparator} alt="" />
+        <img src={AttractionsSeparator1} alt="" />
       </div>
       <div className="attraction">
         <h3 className="attraction-name">Kolejka Czerwonego Kapturka</h3>
@@ -239,7 +240,7 @@ const AttractionsMobile = ({ AttractionsRef }) => {
         </div>
       </div>
       <div className="attractions-separator">
-        <img src={AttractionsSeparator} alt="" />
+        <img src={AttractionsSeparator2} alt="" />
       </div>
       <div className="attraction-last">
         <h3 className="attraction-name">Szlak latarni morskich</h3>

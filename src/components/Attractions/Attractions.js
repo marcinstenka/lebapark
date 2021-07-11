@@ -1,15 +1,15 @@
-import AtractionsMobile from './AttractionsMobile';
-import AtractionsDesktop from './AttractionsDesktop';
-const Atractions = ({ isMobile, AttractionsRef }) => {
+import AttractionsMobile from './AttractionsMobile';
+import AttractionsDesktop from './AttractionsDesktop';
+const Attractions = ({ isMobile, AttractionsRef }) => {
   return (
     <>
       {isMobile ? (
-        <AtractionsMobile AttractionsRef={AttractionsRef} />
+        <AttractionsMobile AttractionsRef={AttractionsRef} />
       ) : (
-        <AtractionsDesktop />
+        <AttractionsDesktop />
       )}
     </>
   );
 };
 
-export default Atractions;
+export default Attractions;

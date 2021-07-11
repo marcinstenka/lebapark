@@ -1,10 +1,11 @@
 import MobileMenuScript from './MobileMenuScript';
 import Logo from '../../assets/logo.png';
 const NavbarMobile = ({ refs }) => {
-  const [HeroRef, AttractionsRef, AnimationsRef, NewsRef] = refs;
+  const [HeroRef, AttractionsRef, AnimationsRef, NewsRef, OffersRef, VisitRef] =
+    refs;
   const handleScroll = item => {
     window.scrollTo({
-      top: item.current.offsetTop - 60,
+      top: item.current.offsetTop - 65,
       behavior: 'smooth',
     });
   };
@@ -55,7 +56,7 @@ const NavbarMobile = ({ refs }) => {
           <li>
             <button
               className="mobile-menu-link"
-              onClick={() => handleScroll(HeroRef)}
+              onClick={() => handleScroll(OffersRef)}
             >
               Oferty specjalne
             </button>
@@ -63,7 +64,7 @@ const NavbarMobile = ({ refs }) => {
           <li>
             <button
               className="mobile-menu-link"
-              onClick={() => handleScroll(HeroRef)}
+              onClick={() => handleScroll(VisitRef)}
             >
               Zaplanuj wizytę
             </button>

@@ -1,5 +1,5 @@
-const AtractionsDesktop = () => {
-  return <div>123</div>;
+const AttractionsDesktop = () => {
+  return <div>AttractionsDesktop</div>;
 };
 
-export default AtractionsDesktop;
+export default AttractionsDesktop;
