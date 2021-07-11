@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import VisitHeader1 from '../../assets/visit-header1.png';
 import VisitHeader2 from '../../assets/visit-header2.png';
 import VisitHeader3 from '../../assets/visit-header3.png';
@@ -5,12 +6,23 @@ import VisitHeader4 from '../../assets/visit-header4.png';
 import VisitLink1 from '../../assets/visit-link1.png';
 import VisitLink2 from '../../assets/visit-link2.png';
 import ParkMap from '../../assets/mapa-parku.jpg';
+import { Scene } from 'react-scrollmagic';
 const PlanYourVisit = ({ VisitRef, AttractionsRef }) => {
+  const [duration, setDuration] = useState(0);
+  useEffect(() => {
+    const timeout = window.setTimeout(() => {
+      const height = document.querySelector('.visit-container').offsetHeight;
+      setDuration(height);
+    }, 100);
+    return () => window.clearTimeout(timeout);
+  }, []);
   return (
     <div className="visit-container" ref={VisitRef}>
-      <div className="visit-header">
-        <img src={VisitHeader1} alt="Zaplanuj swoją wizytę." />
-      </div>
+      <Scene duration={duration} classToggle={['.nav-6', 'active']}>
+        <div className="visit-header">
+          <img src={VisitHeader1} alt="Zaplanuj swoją wizytę." />
+        </div>
+      </Scene>
       <p className="visit-text">
         Park Dinozaurów w Łebie to <strong>40</strong> ha świat zabawy dla całej
         rodziny, wspaniałe trasy pełne przygód i atrakcji, mnóstwo świetnej

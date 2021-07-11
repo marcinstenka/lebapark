@@ -1,13 +1,27 @@
+import { useEffect, useState } from 'react';
 import SpecialOffersHeader from '../../assets/specialOffers-header.png';
+import { Scene } from 'react-scrollmagic';
 const SpecialOffers = ({ OffersRef }) => {
+  const [duration, setDuration] = useState(0);
+  useEffect(() => {
+    const timeout = window.setTimeout(() => {
+      const height = document.querySelector(
+        '.specialOffers-container'
+      ).offsetHeight;
+      setDuration(height);
+    }, 100);
+    return () => window.clearTimeout(timeout);
+  }, []);
   return (
     <div className="specialOffers-container" ref={OffersRef}>
-      <div className="specialOffers-img">
-        <img
-          src={SpecialOffersHeader}
-          alt="Oferty specjalne jakie oferuje park."
-        />
-      </div>
+      <Scene duration={duration} classToggle={['.nav-5', 'active']}>
+        <div className="specialOffers-img">
+          <img
+            src={SpecialOffersHeader}
+            alt="Oferty specjalne jakie oferuje park."
+          />
+        </div>
+      </Scene>
       <div className="specialOffer-item specialOffer-item-first">
         <h3>GRUPY</h3>
         <p>

@@ -7,20 +7,18 @@ import { Scene } from 'react-scrollmagic';
 const Animations = ({ AnimationsRef }) => {
   const [duration, setDuration] = useState(0);
   useEffect(() => {
-    const height =
-      document.querySelector('.animations-container').offsetHeight + 100;
-    setDuration(height);
-  }, [duration]);
-  function HandleChuj() {
-    return duration;
-  }
+    const timeout = window.setTimeout(() => {
+      const height = document.querySelector(
+        '.animations-container'
+      ).offsetHeight;
+      setDuration(height);
+    }, 100);
+    return () => window.clearTimeout(timeout);
+  }, []);
+
   return (
     <div ref={AnimationsRef} className="animations-container">
-      <Scene
-        duration={HandleChuj}
-        classToggle={['.nav-1', 'active']}
-        indicators={true}
-      >
+      <Scene duration={duration} classToggle={['.nav-3', 'active']}>
         <div className="animations-header">
           <img src={AnimationsHeader} alt="" />
         </div>

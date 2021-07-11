@@ -1,10 +1,22 @@
+import { useEffect, useState } from 'react';
 import ContactHeader from '../../assets/contact-header.png';
+import { Scene } from 'react-scrollmagic';
 const Contact = ({ ContactRef }) => {
+  const [duration, setDuration] = useState(0);
+  useEffect(() => {
+    const timeout = window.setTimeout(() => {
+      const height = document.querySelector('.contact-container').offsetHeight;
+      setDuration(height);
+    }, 100);
+    return () => window.clearTimeout(timeout);
+  }, []);
   return (
     <div className="contact-container" ref={ContactRef}>
-      <div className="contact-header">
-        <img src={ContactHeader} alt="Kontakt" />
-      </div>
+      <Scene duration={duration} classToggle={['.nav-7', 'active']}>
+        <div className="contact-header">
+          <img src={ContactHeader} alt="Kontakt" />
+        </div>
+      </Scene>
       <div className="contact-info">
         <p>
           <strong>W razie pytań prosimy o kontakt telefoniczny:</strong>{' '}

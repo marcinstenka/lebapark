@@ -76,9 +76,7 @@ const NavbarMobile = ({ refs }) => {
               Zaplanuj wizytę
             </button>
           </li>
-          <li>
-            <button className="mobile-menu-link">Kup bilet</button>
-          </li>
+
           <li>
             <button
               className="mobile-menu-link"
@@ -86,6 +84,9 @@ const NavbarMobile = ({ refs }) => {
             >
               Kontakt
             </button>
+          </li>
+          <li>
+            <button className="mobile-menu-link">Kup bilet</button>
           </li>
         </ul>
         <div className="menu-logo">
