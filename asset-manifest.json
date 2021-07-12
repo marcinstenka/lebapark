@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/lebapark/static/css/main.e2182f65.chunk.css",
-    "main.js": "/lebapark/static/js/main.e1397a3c.chunk.js",
-    "main.js.map": "/lebapark/static/js/main.e1397a3c.chunk.js.map",
+    "main.css": "/lebapark/static/css/main.811c5ad9.chunk.css",
+    "main.js": "/lebapark/static/js/main.f7a00244.chunk.js",
+    "main.js.map": "/lebapark/static/js/main.f7a00244.chunk.js.map",
     "runtime-main.js": "/lebapark/static/js/runtime-main.8347ba8b.js",
     "runtime-main.js.map": "/lebapark/static/js/runtime-main.8347ba8b.js.map",
     "static/js/2.af1daace.chunk.js": "/lebapark/static/js/2.af1daace.chunk.js",
     "static/js/2.af1daace.chunk.js.map": "/lebapark/static/js/2.af1daace.chunk.js.map",
     "index.html": "/lebapark/index.html",
-    "static/css/main.e2182f65.chunk.css.map": "/lebapark/static/css/main.e2182f65.chunk.css.map",
+    "static/css/main.811c5ad9.chunk.css.map": "/lebapark/static/css/main.811c5ad9.chunk.css.map",
     "static/js/2.af1daace.chunk.js.LICENSE.txt": "/lebapark/static/js/2.af1daace.chunk.js.LICENSE.txt",
     "static/media/animation1.5a09514b.png": "/lebapark/static/media/animation1.5a09514b.png",
     "static/media/animation2.16509494.png": "/lebapark/static/media/animation2.16509494.png",
@@ -53,7 +53,7 @@
   "entrypoints": [
     "static/js/runtime-main.8347ba8b.js",
     "static/js/2.af1daace.chunk.js",
-    "static/css/main.e2182f65.chunk.css",
-    "static/js/main.e1397a3c.chunk.js"
+    "static/css/main.811c5ad9.chunk.css",
+    "static/js/main.f7a00244.chunk.js"
   ]
 }
