@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import VisitHeader1 from '../../assets/visit-header1.png';
 import VisitHeader2 from '../../assets/visit-header2.png';
 import VisitHeader3 from '../../assets/visit-header3.png';
@@ -10,21 +9,13 @@ import Separator1 from '../../assets/attractions-separator1.png';
 import Separator2 from '../../assets/attractions-separator2.png';
 import { Scene } from 'react-scrollmagic';
 const PlanYourVisit = ({ VisitRef, AttractionsRef }) => {
-  const [duration, setDuration] = useState(0);
-  useEffect(() => {
-    const timeout = window.setTimeout(() => {
-      const height = document.querySelector('.visit-container').offsetHeight;
-      setDuration(height);
-    }, 250);
-    return () => window.clearTimeout(timeout);
-  }, []);
   return (
     <div className="visit-container" ref={VisitRef}>
       <div className="visit-separator">
         <img src={Separator1} alt="Początek sekcji Zaplanuj wizytę" />
       </div>
       <div className="visit-section">
-        <Scene duration={duration} classToggle={['.nav-6', 'active']}>
+        <Scene duration={1600} classToggle={['.nav-6', 'active']}>
           <div className="visit-header">
             <img src={VisitHeader1} alt="Zaplanuj swoją wizytę." />
           </div>

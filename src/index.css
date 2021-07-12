@@ -23,10 +23,6 @@ body {
 #root {
   overflow: hidden;
 }
-.content {
-  max-width: 950px;
-  margin: 0 auto;
-}
 
 /* 
   2. Mobile styles
@@ -64,7 +60,7 @@ body {
   position: absolute;
   top: 50%;
   transform: translate(0, -50%);
-  right: 30px;
+  right: 35px;
   width: 25px;
   height: 25px;
   display: flex;
@@ -211,7 +207,9 @@ body {
 }
 
 .attractions-header,
-.attractions-header img {
+.attractions-header img,
+.attractions-separator,
+.attractions-separator img {
   width: 100%;
 }
 .attractions-header {
@@ -328,7 +326,7 @@ body {
 }
 .news-item {
   position: relative;
-  max-width: 350px;
+  max-width: 400px;
   margin: 15px auto;
 }
 .news-item a {
@@ -532,10 +530,44 @@ footer p {
   max-width: 250px;
   text-align: center;
 }
-
+@media (min-width: 600px) {
+  :root {
+    --fontMobile: 16px;
+  }
+  h3 {
+    font-size: 22px !important;
+  }
+  h4 {
+    font-size: 20px !important;
+  }
+  .content {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  .attraction-img {
+    max-width: 200px;
+  }
+  .animations-header,
+  .attractions-header {
+    max-width: 340px;
+  }
+  .animation-img {
+    max-width: 200px;
+  }
+  .specialOffers-img {
+    max-width: 260px;
+  }
+  .visit-header,
+  .contact-header {
+    max-width: 300px;
+  }
+}
 /* 3. Desktop stlyes */
 
-@media (min-width: 801px) {
+@media (min-width: 1000px) {
+  .content {
+    max-width: 950px;
+  }
   .navbar {
     display: block;
     position: fixed;
@@ -570,8 +602,6 @@ footer p {
   .active {
     background: var(--theme);
   }
-}
-@media (min-width: 1000px) {
   .lead-info,
   .attraction-info,
   .animation-text,

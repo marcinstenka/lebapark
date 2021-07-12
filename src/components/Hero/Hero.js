@@ -1,21 +1,11 @@
-import { useEffect, useState } from 'react';
-
 import Logo from '../../assets/logo.png';
 import Covid from '../../assets/hero-covid.png';
 import Lead from '../../assets/lead.png';
 import { Scene } from 'react-scrollmagic';
 const Hero = ({ HeroRef }) => {
-  const [duration, setDuration] = useState(0);
-  useEffect(() => {
-    const timeout = window.setTimeout(() => {
-      const height = document.querySelector('.hero-container').offsetHeight;
-      setDuration(height);
-    }, 250);
-    return () => window.clearTimeout(timeout);
-  }, []);
   return (
     <div className="hero-container" ref={HeroRef}>
-      <Scene duration={duration} classToggle={['.nav-1', 'active']}>
+      <Scene duration={850} classToggle={['.nav-1', 'active']}>
         <div className="hero-logo">
           <img src={Logo} alt="Logo parku dinozaurów Łeba" />
         </div>

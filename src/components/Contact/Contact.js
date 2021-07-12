@@ -1,19 +1,10 @@
-import { useEffect, useState } from 'react';
 import ContactHeader from '../../assets/contact-header.png';
 import { Scene } from 'react-scrollmagic';
 const Contact = ({ ContactRef }) => {
-  const [duration, setDuration] = useState(0);
-  useEffect(() => {
-    const timeout = window.setTimeout(() => {
-      const height = document.querySelector('.contact-container').offsetHeight;
-      setDuration(height);
-    }, 250);
-    return () => window.clearTimeout(timeout);
-  }, []);
   return (
     <div className="contact-container" ref={ContactRef}>
       <div className="contact-text">
-        <Scene duration={duration} classToggle={['.nav-7', 'active']}>
+        <Scene duration={700} classToggle={['.nav-7', 'active']}>
           <div className="contact-header">
             <img src={ContactHeader} alt="Kontakt" />
           </div>

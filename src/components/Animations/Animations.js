@@ -1,24 +1,12 @@
-import { useEffect, useState } from 'react';
 import AnimationsHeader from '../../assets/animations_header.png';
 import Animation1 from '../../assets/animation1.png';
 import Animation2 from '../../assets/animation2.png';
 import { Scene } from 'react-scrollmagic';
 
 const Animations = ({ AnimationsRef }) => {
-  const [duration, setDuration] = useState(0);
-  useEffect(() => {
-    const timeout = window.setTimeout(() => {
-      const height = document.querySelector(
-        '.animations-container'
-      ).offsetHeight;
-      setDuration(height);
-    }, 250);
-    return () => window.clearTimeout(timeout);
-  }, []);
-
   return (
     <div ref={AnimationsRef} className="animations-container">
-      <Scene duration={duration} classToggle={['.nav-3', 'active']}>
+      <Scene duration={770} classToggle={['.nav-3', 'active']}>
         <div className="animations-header">
           <img src={AnimationsHeader} alt="" />
         </div>

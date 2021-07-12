@@ -27,7 +27,7 @@ const App = () => {
       setWidth(window.innerWidth);
     }, 100);
     window.addEventListener('resize', debouncedHandleResize);
-    if (width > 800) {
+    if (width > 1000) {
       setIsMobile(false);
     } else {
       setIsMobile(true);
