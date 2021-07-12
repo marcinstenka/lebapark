@@ -95,7 +95,7 @@ const PlanYourVisit = ({ VisitRef, AttractionsRef }) => {
       </div>
 
       <div className="visit-links">
-        <a
+        <button
           className="visit-link"
           onClick={() => {
             window.scrollTo({
@@ -105,10 +105,10 @@ const PlanYourVisit = ({ VisitRef, AttractionsRef }) => {
           }}
         >
           <img src={VisitLink1} alt="Sprawdź listę atrakcji!" />
-        </a>
-        <a className="visit-link">
+        </button>
+        <button className="visit-link open-modal">
           <img src={VisitLink2} alt="Kup bilety online!" />
-        </a>
+        </button>
       </div>
       <div className="visit-item visit-item-additional">
         <h3 className="visit-additional">Informacje dodatkowe</h3>

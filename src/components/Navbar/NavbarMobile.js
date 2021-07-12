@@ -86,7 +86,7 @@ const NavbarMobile = ({ refs }) => {
             </button>
           </li>
           <li>
-            <button className="mobile-menu-link">Kup bilet</button>
+            <button className="mobile-menu-link open-modal">Kup bilet</button>
           </li>
         </ul>
         <div className="menu-logo">
