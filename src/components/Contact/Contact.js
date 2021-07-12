@@ -7,52 +7,54 @@ const Contact = ({ ContactRef }) => {
     const timeout = window.setTimeout(() => {
       const height = document.querySelector('.contact-container').offsetHeight;
       setDuration(height);
-    }, 100);
+    }, 250);
     return () => window.clearTimeout(timeout);
   }, []);
   return (
     <div className="contact-container" ref={ContactRef}>
-      <Scene duration={duration} classToggle={['.nav-7', 'active']}>
-        <div className="contact-header">
-          <img src={ContactHeader} alt="Kontakt" />
+      <div className="contact-text">
+        <Scene duration={duration} classToggle={['.nav-7', 'active']}>
+          <div className="contact-header">
+            <img src={ContactHeader} alt="Kontakt" />
+          </div>
+        </Scene>
+        <div className="contact-info">
+          <p>
+            <strong>W razie pytań prosimy o kontakt telefoniczny:</strong>{' '}
+            <a href="tel: 600 145 300">
+              <span>600 145 300</span>
+            </a>
+            <br />
+            lub o zapytanie mailowe wysłane na adres:
+            <br />
+            <span>e-mail: lebapark@lebapark.pl</span>
+            <br />
+            ul. Kolonijna 24, Nowęcin k. Łeby
+          </p>
+          <p>
+            <strong>Rezerwacja pobytu</strong> w hotelu{' '}
+            <strong>Grand Łeba</strong> przez telefon:
+            <br />
+            <a href="tel: 723 724 722">
+              <span>723 724 722</span>
+            </a>
+            <br />
+            lub o zapytanie mailowe wysłane na adres e-mail:
+            <br />
+            <span>recepcja@grandleba.pl</span>
+            <br />
+            ul. Nad Ujściem 6, Łeba
+          </p>
+          <p>
+            <strong>Organizacja imprez firmowych:</strong>
+            <br />
+            Agencja Artystyczna Przygoda Lębork
+            <br />
+            <span>biuro@przygodalebork.pl</span>
+            <br />
+            tel. 59 86 22 755
+          </p>
         </div>
-      </Scene>
-      <div className="contact-info">
-        <p>
-          <strong>W razie pytań prosimy o kontakt telefoniczny:</strong>{' '}
-          <a href="tel: 600 145 300">
-            <span>600 145 300</span>
-          </a>
-          <br />
-          lub o zapytanie mailowe wysłane na adres:
-          <br />
-          <span>e-mail: lebapark@lebapark.pl</span>
-          <br />
-          ul. Kolonijna 24, Nowęcin k. Łeby
-        </p>
-        <p>
-          <strong>Rezerwacja pobytu</strong> w hotelu{' '}
-          <strong>Grand Łeba</strong> przez telefon:
-          <br />
-          <a href="tel: 723 724 722">
-            <span>723 724 722</span>
-          </a>
-          <br />
-          lub o zapytanie mailowe wysłane na adres e-mail:
-          <br />
-          <span>recepcja@grandleba.pl</span>
-          <br />
-          ul. Nad Ujściem 6, Łeba
-        </p>
-        <p>
-          <strong>Organizacja imprez firmowych:</strong>
-          <br />
-          Agencja Artystyczna Przygoda Lębork
-          <br />
-          <span>biuro@przygodalebork.pl</span>
-          <br />
-          tel. 59 86 22 755
-        </p>
       </div>
       <div className="contact-map">
         <iframe

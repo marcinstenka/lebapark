@@ -9,7 +9,7 @@ const SpecialOffers = ({ OffersRef }) => {
         '.specialOffers-container'
       ).offsetHeight;
       setDuration(height);
-    }, 100);
+    }, 250);
     return () => window.clearTimeout(timeout);
   }, []);
   return (

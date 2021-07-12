@@ -12,7 +12,7 @@ const Animations = ({ AnimationsRef }) => {
         '.animations-container'
       ).offsetHeight;
       setDuration(height);
-    }, 100);
+    }, 250);
     return () => window.clearTimeout(timeout);
   }, []);
 

@@ -10,7 +10,7 @@ const News = ({ NewsRef }) => {
     const timeout = window.setTimeout(() => {
       const height = document.querySelector('.news-container').offsetHeight;
       setDuration(height);
-    }, 100);
+    }, 250);
     return () => window.clearTimeout(timeout);
   }, []);
   return (

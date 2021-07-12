@@ -10,7 +10,7 @@ const Hero = ({ HeroRef }) => {
     const timeout = window.setTimeout(() => {
       const height = document.querySelector('.hero-container').offsetHeight;
       setDuration(height);
-    }, 100);
+    }, 250);
     return () => window.clearTimeout(timeout);
   }, []);
   return (
