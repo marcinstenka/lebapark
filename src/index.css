@@ -33,10 +33,10 @@ body {
 }
 .modal-content {
   background-color: #fefefe;
-  margin: 10% auto;
+  margin: 50% auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 80%;
+  width: 100%;
   max-width: 1000px;
   position: relative;
 }
@@ -609,6 +609,10 @@ footer p {
   }
   .content {
     max-width: 950px;
+  }
+  .modal-content {
+    margin: 10% auto;
+    width: 80%;
   }
   .navbar {
     display: block;
