@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/lebapark/static/css/main.1747e4e2.chunk.css",
-    "main.js": "/lebapark/static/js/main.85e776c6.chunk.js",
-    "main.js.map": "/lebapark/static/js/main.85e776c6.chunk.js.map",
+    "main.css": "/lebapark/static/css/main.e2182f65.chunk.css",
+    "main.js": "/lebapark/static/js/main.e1397a3c.chunk.js",
+    "main.js.map": "/lebapark/static/js/main.e1397a3c.chunk.js.map",
     "runtime-main.js": "/lebapark/static/js/runtime-main.8347ba8b.js",
     "runtime-main.js.map": "/lebapark/static/js/runtime-main.8347ba8b.js.map",
     "static/js/2.af1daace.chunk.js": "/lebapark/static/js/2.af1daace.chunk.js",
     "static/js/2.af1daace.chunk.js.map": "/lebapark/static/js/2.af1daace.chunk.js.map",
     "index.html": "/lebapark/index.html",
-    "static/css/main.1747e4e2.chunk.css.map": "/lebapark/static/css/main.1747e4e2.chunk.css.map",
+    "static/css/main.e2182f65.chunk.css.map": "/lebapark/static/css/main.e2182f65.chunk.css.map",
     "static/js/2.af1daace.chunk.js.LICENSE.txt": "/lebapark/static/js/2.af1daace.chunk.js.LICENSE.txt",
     "static/media/animation1.5a09514b.png": "/lebapark/static/media/animation1.5a09514b.png",
     "static/media/animation2.16509494.png": "/lebapark/static/media/animation2.16509494.png",
@@ -31,6 +31,7 @@
     "static/media/attractions-separator2.0f3a05ea.png": "/lebapark/static/media/attractions-separator2.0f3a05ea.png",
     "static/media/attractions_end.03818e76.png": "/lebapark/static/media/attractions_end.03818e76.png",
     "static/media/attractions_header.28d82a3e.png": "/lebapark/static/media/attractions_header.28d82a3e.png",
+    "static/media/attractions_path.c0f16b55.png": "/lebapark/static/media/attractions_path.c0f16b55.png",
     "static/media/attractions_start.5551a2e9.png": "/lebapark/static/media/attractions_start.5551a2e9.png",
     "static/media/contact-header.f58bb7c6.png": "/lebapark/static/media/contact-header.f58bb7c6.png",
     "static/media/hero-covid.e4b7256d.png": "/lebapark/static/media/hero-covid.e4b7256d.png",
@@ -52,7 +53,7 @@
   "entrypoints": [
     "static/js/runtime-main.8347ba8b.js",
     "static/js/2.af1daace.chunk.js",
-    "static/css/main.1747e4e2.chunk.css",
-    "static/js/main.85e776c6.chunk.js"
+    "static/css/main.e2182f65.chunk.css",
+    "static/js/main.e1397a3c.chunk.js"
   ]
 }
