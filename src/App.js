@@ -62,7 +62,6 @@ const App = () => {
   });
 
   // references - scroll to section after navbar clicked
-
   const HeroRef = useRef();
   const AttractionsRef = useRef();
   const AnimationsRef = useRef();
