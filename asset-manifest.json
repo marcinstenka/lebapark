@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/lebapark/static/css/main.27f38e32.chunk.css",
-    "main.js": "/lebapark/static/js/main.f7a00244.chunk.js",
-    "main.js.map": "/lebapark/static/js/main.f7a00244.chunk.js.map",
+    "main.css": "/lebapark/static/css/main.5905ecbe.chunk.css",
+    "main.js": "/lebapark/static/js/main.fdb88773.chunk.js",
+    "main.js.map": "/lebapark/static/js/main.fdb88773.chunk.js.map",
     "runtime-main.js": "/lebapark/static/js/runtime-main.8347ba8b.js",
     "runtime-main.js.map": "/lebapark/static/js/runtime-main.8347ba8b.js.map",
     "static/js/2.af1daace.chunk.js": "/lebapark/static/js/2.af1daace.chunk.js",
     "static/js/2.af1daace.chunk.js.map": "/lebapark/static/js/2.af1daace.chunk.js.map",
     "index.html": "/lebapark/index.html",
-    "static/css/main.27f38e32.chunk.css.map": "/lebapark/static/css/main.27f38e32.chunk.css.map",
+    "static/css/main.5905ecbe.chunk.css.map": "/lebapark/static/css/main.5905ecbe.chunk.css.map",
     "static/js/2.af1daace.chunk.js.LICENSE.txt": "/lebapark/static/js/2.af1daace.chunk.js.LICENSE.txt",
     "static/media/animation1.5a09514b.png": "/lebapark/static/media/animation1.5a09514b.png",
     "static/media/animation2.16509494.png": "/lebapark/static/media/animation2.16509494.png",
@@ -38,10 +38,10 @@
     "static/media/lead.e618d21b.png": "/lebapark/static/media/lead.e618d21b.png",
     "static/media/logo.6483c6f5.png": "/lebapark/static/media/logo.6483c6f5.png",
     "static/media/mapa-parku.e4fcc22a.jpg": "/lebapark/static/media/mapa-parku.e4fcc22a.jpg",
-    "static/media/news1.90720a90.png": "/lebapark/static/media/news1.90720a90.png",
-    "static/media/news2.767c3cc7.png": "/lebapark/static/media/news2.767c3cc7.png",
-    "static/media/news3.00789d69.png": "/lebapark/static/media/news3.00789d69.png",
-    "static/media/news4.7fcb8246.png": "/lebapark/static/media/news4.7fcb8246.png",
+    "static/media/news-1.fe254a33.png": "/lebapark/static/media/news-1.fe254a33.png",
+    "static/media/news-2.e7402196.png": "/lebapark/static/media/news-2.e7402196.png",
+    "static/media/news-3.9dadd821.png": "/lebapark/static/media/news-3.9dadd821.png",
+    "static/media/news-4.d9ccec3b.png": "/lebapark/static/media/news-4.d9ccec3b.png",
     "static/media/specialOffers-header.6184eea1.png": "/lebapark/static/media/specialOffers-header.6184eea1.png",
     "static/media/visit-header1.87c55d8b.png": "/lebapark/static/media/visit-header1.87c55d8b.png",
     "static/media/visit-header2.6254b28d.png": "/lebapark/static/media/visit-header2.6254b28d.png",
@@ -53,7 +53,7 @@
   "entrypoints": [
     "static/js/runtime-main.8347ba8b.js",
     "static/js/2.af1daace.chunk.js",
-    "static/css/main.27f38e32.chunk.css",
-    "static/js/main.f7a00244.chunk.js"
+    "static/css/main.5905ecbe.chunk.css",
+    "static/js/main.fdb88773.chunk.js"
   ]
 }
