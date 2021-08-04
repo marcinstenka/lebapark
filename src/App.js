@@ -22,9 +22,9 @@ function debounce(fn, ms) {
 }
 const App = () => {
 	//cookies
-	const [cookies, setCookie] = useCookies(['cookies']);
+	const [cookies, setCookie] = useCookies(['CookiesParkLeba']);
 	const handleCookie = () => {
-		setCookie('Cookies', 'CookiesAccepted', { path: '/' });
+		setCookie('CookiesParkLeba', 'CookiesAccepted', { path: '/' });
 	};
 
 	// handling resize to put good components on mobile or desktop devices
@@ -46,12 +46,13 @@ const App = () => {
 
 	// modal - online tickets & cookies
 	useEffect(() => {
-		if (!cookies.Cookies) {
+		if (!cookies.CookiesParkLeba) {
 			const cookiesBtn = document.querySelector('.cookies button');
 			cookiesBtn.addEventListener('click', () => {
 				cookiesBtn.parentElement.style.display = 'none';
 			});
 		}
+
 		const navbarLinks = document.querySelectorAll('.open-modal');
 		const modal = document.querySelector('#droplabsModal');
 		const veil = document.querySelector('.veil');
@@ -94,7 +95,7 @@ const App = () => {
 	return (
 		<Controller>
 			<Navbar isMobile={isMobile} refs={refs} />
-			{!cookies.Cookies && (
+			{!cookies.CookiesParkLeba && (
 				<div className='cookies'>
 					<p>Ta strona wykorzystuje pliki cookies.</p>{' '}
 					<button onClick={handleCookie}>X</button>
