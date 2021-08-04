@@ -22,19 +22,11 @@ function debounce(fn, ms) {
 }
 const App = () => {
 	//cookies
-	const [cookies, setCookie] = useCookies(['test']);
+	const [cookies, setCookie] = useCookies(['cookies']);
 	const handleCookie = () => {
 		setCookie('Cookies', 'CookiesAccepted', { path: '/' });
 	};
 
-	useEffect(() => {
-		if (!cookies.Cookies) {
-			const cookiesBtn = document.querySelector('.cookies button');
-			cookiesBtn.addEventListener('click', () => {
-				cookiesBtn.parentElement.style.display = 'none';
-			});
-		}
-	}, []);
 	// handling resize to put good components on mobile or desktop devices
 
 	const [width, setWidth] = useState(window.innerWidth);
@@ -52,8 +44,14 @@ const App = () => {
 		return () => window.removeEventListener('resize', debouncedHandleResize);
 	}, [width]);
 
-	// modal - online tickets
+	// modal - online tickets & cookies
 	useEffect(() => {
+		if (!cookies.Cookies) {
+			const cookiesBtn = document.querySelector('.cookies button');
+			cookiesBtn.addEventListener('click', () => {
+				cookiesBtn.parentElement.style.display = 'none';
+			});
+		}
 		const navbarLinks = document.querySelectorAll('.open-modal');
 		const modal = document.querySelector('#droplabsModal');
 		const veil = document.querySelector('.veil');
