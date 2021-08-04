@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/lebapark/static/css/main.2197308d.chunk.css",
-    "main.js": "/lebapark/static/js/main.ccd24c30.chunk.js",
-    "main.js.map": "/lebapark/static/js/main.ccd24c30.chunk.js.map",
+    "main.js": "/lebapark/static/js/main.a542b437.chunk.js",
+    "main.js.map": "/lebapark/static/js/main.a542b437.chunk.js.map",
     "runtime-main.js": "/lebapark/static/js/runtime-main.8347ba8b.js",
     "runtime-main.js.map": "/lebapark/static/js/runtime-main.8347ba8b.js.map",
     "static/js/2.d1ed3644.chunk.js": "/lebapark/static/js/2.d1ed3644.chunk.js",
@@ -54,6 +54,6 @@
     "static/js/runtime-main.8347ba8b.js",
     "static/js/2.d1ed3644.chunk.js",
     "static/css/main.2197308d.chunk.css",
-    "static/js/main.ccd24c30.chunk.js"
+    "static/js/main.a542b437.chunk.js"
   ]
 }
