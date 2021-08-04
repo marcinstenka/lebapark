@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/lebapark/static/css/main.5905ecbe.chunk.css",
-    "main.js": "/lebapark/static/js/main.fdb88773.chunk.js",
-    "main.js.map": "/lebapark/static/js/main.fdb88773.chunk.js.map",
+    "main.css": "/lebapark/static/css/main.2197308d.chunk.css",
+    "main.js": "/lebapark/static/js/main.611c74de.chunk.js",
+    "main.js.map": "/lebapark/static/js/main.611c74de.chunk.js.map",
     "runtime-main.js": "/lebapark/static/js/runtime-main.8347ba8b.js",
     "runtime-main.js.map": "/lebapark/static/js/runtime-main.8347ba8b.js.map",
-    "static/js/2.af1daace.chunk.js": "/lebapark/static/js/2.af1daace.chunk.js",
-    "static/js/2.af1daace.chunk.js.map": "/lebapark/static/js/2.af1daace.chunk.js.map",
+    "static/js/2.d1ed3644.chunk.js": "/lebapark/static/js/2.d1ed3644.chunk.js",
+    "static/js/2.d1ed3644.chunk.js.map": "/lebapark/static/js/2.d1ed3644.chunk.js.map",
     "index.html": "/lebapark/index.html",
-    "static/css/main.5905ecbe.chunk.css.map": "/lebapark/static/css/main.5905ecbe.chunk.css.map",
-    "static/js/2.af1daace.chunk.js.LICENSE.txt": "/lebapark/static/js/2.af1daace.chunk.js.LICENSE.txt",
+    "static/css/main.2197308d.chunk.css.map": "/lebapark/static/css/main.2197308d.chunk.css.map",
+    "static/js/2.d1ed3644.chunk.js.LICENSE.txt": "/lebapark/static/js/2.d1ed3644.chunk.js.LICENSE.txt",
     "static/media/animation1.5a09514b.png": "/lebapark/static/media/animation1.5a09514b.png",
     "static/media/animation2.16509494.png": "/lebapark/static/media/animation2.16509494.png",
     "static/media/animations_header.d2b4fa3a.png": "/lebapark/static/media/animations_header.d2b4fa3a.png",
@@ -52,8 +52,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8347ba8b.js",
-    "static/js/2.af1daace.chunk.js",
-    "static/css/main.5905ecbe.chunk.css",
-    "static/js/main.fdb88773.chunk.js"
+    "static/js/2.d1ed3644.chunk.js",
+    "static/css/main.2197308d.chunk.css",
+    "static/js/main.611c74de.chunk.js"
   ]
 }
