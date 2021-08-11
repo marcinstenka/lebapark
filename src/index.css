@@ -977,7 +977,7 @@ footer p {
 
   /* news */
 
-  <<<<<<< HEAD .news-container {
+  .news-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -1033,7 +1033,7 @@ footer p {
   .news-item:nth-of-type(4) p:nth-of-type(3) {
     top: 67%;
   }
-  ======= .news-container {
+  .news-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -1095,11 +1095,10 @@ footer p {
   .news-item:nth-of-type(4) p:nth-of-type(3) {
     top: 67%;
   }
-  >>>>>>> 30535c2f28ef5af4c2d416ece92e291daeff461d
 
-	/* special offers */
+  /* special offers */
 
-	.specialOffers-container {
+  .specialOffers-container {
     margin: 50px 0 0 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
