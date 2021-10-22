@@ -1,4 +1,5 @@
 import ContactHeader from '../../assets/contact-header.png';
+import Pfr from '../../assets/pfr.png';
 import { Scene } from 'react-scrollmagic';
 const Contact = ({ ContactRef }) => {
   return (
@@ -63,6 +64,9 @@ const Contact = ({ ContactRef }) => {
         przede wszystkim! W razie braku dostępności niektórych z atrakcji, nie
         przysługuje zwrot lub obniżenie ceny biletu.
       </p>
+      <div className="voucher">
+        <img src={Pfr} alt="PFR" />
+      </div>
     </div>
   );
 };

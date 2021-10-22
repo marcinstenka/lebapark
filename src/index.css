@@ -620,6 +620,12 @@ body {
 .contact-reason {
   font-size: 12px;
 }
+.voucher {
+  width: 100%;
+}
+.voucher img {
+  width: 100%;
+}
 
 /* 2.10 - contact */
 
@@ -1200,5 +1206,9 @@ footer p {
     grid-column: 1 / 4;
     font-size: 14px;
     margin: 30px;
+  }
+  .voucher {
+    width: 100%;
+    grid-column: 1 / 5;
   }
 }
