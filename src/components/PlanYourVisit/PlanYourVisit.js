@@ -76,7 +76,7 @@ const PlanYourVisit = ({ VisitRef, AttractionsRef }) => {
             dla dzieci i młodzieży do 15 roku życia tylko za okazaniem
             legitymacji szkolnej
           </p>
-          <h4>bilet grupowy: 29 zł</h4>
+          <h4>bilet grupowy: 39 zł</h4>
           <p>
             dla grup szkolnych powyżej 20 dzieci, 1 osoba (opiekun/organizator)
             na 15 dzieci z danej grupy wstęp wolny,
