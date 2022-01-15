@@ -70,13 +70,13 @@ const PlanYourVisit = ({ VisitRef, AttractionsRef }) => {
           <div className="visit-header">
             <img src={VisitHeader3} alt="Kalendarz" />
           </div>
-          <h4>bilet normalny: 85 zł</h4>
-          <h4>bilet ulgowy: 65 zł</h4>
+          <h4>bilet normalny: 95 zł</h4>
+          <h4>bilet ulgowy: 75 zł</h4>
           <p>
             dla dzieci i młodzieży do 15 roku życia tylko za okazaniem
             legitymacji szkolnej
           </p>
-          <h4>bilet grupowy: 39 zł</h4>
+          <h4>bilet grupowy: 45 zł</h4>
           <p>
             dla grup szkolnych powyżej 20 dzieci, 1 osoba (opiekun/organizator)
             na 15 dzieci z danej grupy wstęp wolny,
