@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.12761fe3.chunk.css",
-    "main.js": "/static/js/main.ba704c5a.chunk.js",
-    "main.js.map": "/static/js/main.ba704c5a.chunk.js.map",
+    "main.js": "/static/js/main.9f896b3b.chunk.js",
+    "main.js.map": "/static/js/main.9f896b3b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7fbe2ebf.js",
     "runtime-main.js.map": "/static/js/runtime-main.7fbe2ebf.js.map",
     "static/js/2.d1ed3644.chunk.js": "/static/js/2.d1ed3644.chunk.js",
@@ -34,7 +34,7 @@
     "static/media/attractions_path.7988a3d2.png": "/static/media/attractions_path.7988a3d2.png",
     "static/media/attractions_start.5551a2e9.png": "/static/media/attractions_start.5551a2e9.png",
     "static/media/contact-header.f58bb7c6.png": "/static/media/contact-header.f58bb7c6.png",
-    "static/media/hero-covid.e4b7256d.png": "/static/media/hero-covid.e4b7256d.png",
+    "static/media/hero.2f669ab5.png": "/static/media/hero.2f669ab5.png",
     "static/media/lead.e618d21b.png": "/static/media/lead.e618d21b.png",
     "static/media/logo.6483c6f5.png": "/static/media/logo.6483c6f5.png",
     "static/media/mapa-parku.e4fcc22a.jpg": "/static/media/mapa-parku.e4fcc22a.jpg",
@@ -55,6 +55,6 @@
     "static/js/runtime-main.7fbe2ebf.js",
     "static/js/2.d1ed3644.chunk.js",
     "static/css/main.12761fe3.chunk.css",
-    "static/js/main.ba704c5a.chunk.js"
+    "static/js/main.9f896b3b.chunk.js"
   ]
 }

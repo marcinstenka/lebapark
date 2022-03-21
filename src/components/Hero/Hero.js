@@ -1,5 +1,5 @@
 import Logo from '../../assets/logo.png';
-import Covid from '../../assets/hero-covid.png';
+import Covid from '../../assets/hero.png';
 import Lead from '../../assets/lead.png';
 import { Scene } from 'react-scrollmagic';
 const Hero = ({ HeroRef }) => {
