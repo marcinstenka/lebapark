@@ -44,9 +44,7 @@ const AttractionsDesktop = ({ AttractionsRef }) => {
             Gra w mini golfa jest doskonałą rozrywką dla całej rodziny.
             Przejście pola do minigolfa jest atrakcyjnym sposobem spędzenia
             wolnego czasu na świeżym powietrzu wraz z rodziną lub znajomymi,
-            rywalizacja sportowa na pewno dostarczy wielu emocji. Nasze pole do
-            minigolfa umieszczone zostało na powierzchni 10 000 m2, w którego
-            skład wchodzi 18 torów do gry!
+            rywalizacja sportowa na pewno dostarczy wielu emocji. 
           </p>
         </div>
         <div className="attraction">
@@ -85,11 +83,7 @@ const AttractionsDesktop = ({ AttractionsRef }) => {
           </p>
         </div>
         <div className="attraction">
-          <h3>Rekreacyjne łowisko ryb</h3>
-          <p>
-            Jesteś fanem wędkarstwa? Zapraszamy na rekreacyjne łowisko ryb! (nie
-            zapewniamy sprzętu i zanęty) Idealny relaks dla zapalonych wędkarzy.
-          </p>
+          
         </div>
         <div className="attraction">
           <h3>Labirynt magicznych luster</h3>
@@ -143,17 +137,13 @@ const AttractionsDesktop = ({ AttractionsRef }) => {
           </p>
         </div>
         <div className="attraction">
-          <h3>Dinusiowa kolejka</h3>
-          <p>
-            Dino pociągiem w świat – Kolejka Dinusiowa wprost z ukochanej bajki
-            najmłodszych (zlokalizowana przy największych dinozaurach).
-          </p>
+          
+          
         </div>
         <div className="attraction">
-          <h3>Kolejka Czerwonego Kapturka</h3>
+          <h3>Pojazd</h3>
           <p>
-            Wybierz się z nami w podróż do krainy bajek. Nasza magiczna kolejka
-            zawiezie cię w krainę Czerwonego Kapturka.
+            Wybierz się z nami w podróż do krainy bajek. 
           </p>
         </div>
         <div className="attraction">

@@ -21,7 +21,7 @@ const Hero = ({ HeroRef }) => {
       <div className="hero-lead">
         <p className="lead-info">
           Wizyta u nas to niezwykła, fantastyczna przygoda w przeszłość, aż do
-          epoki kredy. Tylko w Łebie w Parku Dinozaurów na 20ha spotkasz
+          epoki kredy. Tylko w Łebie w Parku Dinozaurów spotkasz
           trójwymiarowe gady naturalnej wielkości.
         </p>
         <div className="lead-img">

@@ -8,11 +8,9 @@ import Attraction3 from './../../assets/attraction3.png';
 import Attraction4 from './../../assets/attraction4.png';
 import Attraction5 from './../../assets/attraction5.png';
 import Attraction6 from './../../assets/attraction6.png';
-import Attraction7 from './../../assets/attraction7.png';
 import Attraction10 from './../../assets/attraction10.png';
 import Attraction11 from './../../assets/attraction11.png';
 import Attraction12 from './../../assets/attraction12.png';
-import Attraction13 from './../../assets/attraction13.png';
 import Attraction14 from './../../assets/attraction14.png';
 import Attraction15 from './../../assets/attraction15.png';
 import Attraction16 from './../../assets/attraction16.png';
@@ -63,9 +61,7 @@ const AttractionsMobile = ({ AttractionsRef }) => {
           Gra w mini golfa jest doskonałą rozrywką dla całej rodziny. Przejście
           pola do minigolfa jest atrakcyjnym sposobem spędzenia wolnego czasu na
           świeżym powietrzu wraz z rodziną lub znajomymi, rywalizacja sportowa
-          na pewno dostarczy wielu emocji. Nasze pole do minigolfa umieszczone
-          zostało na powierzchni 10 000 m2, w którego skład wchodzi 18 torów do
-          gry!
+          na pewno dostarczy wielu emocji. 
         </div>
       </div>
       <div className="attractions-separator">
@@ -131,19 +127,6 @@ const AttractionsMobile = ({ AttractionsRef }) => {
       </div>
       <div className="attractions-separator">
         <img src={AttractionsSeparator2} alt="" />
-      </div>
-      <div className="attraction">
-        <h3 className="attraction-name">Rekreacyjne łowisko ryb</h3>
-        <div className="attraction-img">
-          <img src={Attraction7} alt="Rekreacyjne łowisko ryb" />
-        </div>
-        <div className="attraction-info">
-          Jesteś fanem wędkarstwa? Zapraszamy na rekreacyjne łowisko ryb! (nie
-          zapewniamy sprzętu i zanęty). Idealny relaks dla zapalonych wędkarzy.
-        </div>
-      </div>
-      <div className="attractions-separator">
-        <img src={AttractionsSeparator1} alt="" />
       </div>
       <div className="attraction">
         <h3 className="attraction-name attraction-name-noimg">
@@ -216,27 +199,14 @@ const AttractionsMobile = ({ AttractionsRef }) => {
       <div className="attractions-separator">
         <img src={AttractionsSeparator2} alt="" />
       </div>
+      
       <div className="attraction">
-        <h3 className="attraction-name">Dinusiowa kolejka</h3>
-        <div className="attraction-img">
-          <img src={Attraction13} alt="Dinusiowa kolejka" />
-        </div>
-        <div className="attraction-info">
-          Dino pociągiem w świat – Kolejka Dinusiowa wprost z ukochanej bajki
-          najmłodszych (zlokalizowana przy największych dinozaurach).
-        </div>
-      </div>
-      <div className="attractions-separator">
-        <img src={AttractionsSeparator1} alt="" />
-      </div>
-      <div className="attraction">
-        <h3 className="attraction-name">Kolejka Czerwonego Kapturka</h3>
+        <h3 className="attraction-name">Pojazd Bajkowy</h3>
         <div className="attraction-img">
           <img src={Attraction14} alt="Kolejka Czerwonego Kapturka" />
         </div>
         <div className="attraction-info">
-          Wybierz się z nami w podróż do krainy bajek. Nasza magiczna kolejka
-          zawiezie cię w krainę Czerwonego Kapturka.
+          Wybierz się z nami w podróż do krainy bajek.
         </div>
       </div>
       <div className="attractions-separator">

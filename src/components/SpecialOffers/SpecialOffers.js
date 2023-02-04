@@ -57,21 +57,15 @@ const SpecialOffers = ({ OffersRef }) => {
           <li>eurobangee,</li>
           <li>dmuchawce,</li>
           <li>
-            największe w Polsce pole Minigolfa – 18 dołków na terenie 10 000 m2,
+            największe w Polsce pole Minigolfa
           </li>
-          <li>mini zoo,</li>
           <li>wstęp do galerii minerałów i skamielin,</li>
-          <li>amatorski połów ryb (tylko ze swoim sprzętem),</li>
           <li>pojazdy Flinstonów,</li>
           <li>rowery wodne dla rodzin,</li>
           <li>strzelanie z łuku i wiatrówki</li>
           <li>kopalnia złota,</li>
           <li>pojazdy wodne dla dzieci,</li>
-          <li>
-            przejazd pojazdem na trasie czerwonego kapturka / dostępne od 10:00
-            do zamknięcia,
-          </li>
-          <li>przejazd pojazdem Hobbita / dostępne od 10:00 do zamknięcia,</li>
+          <li>przejazd pojazdem bajkowym</li>
           <li>wstęp na Diabelski Młyn (koło młyńskie) wysoki na 27 metrów!,</li>
           <li>labirynt magicznych luster,</li>
           <li>bezpłatny dojazd do parku</li>

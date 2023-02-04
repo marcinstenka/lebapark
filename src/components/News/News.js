@@ -24,14 +24,14 @@ const News = ({ NewsRef }) => {
           Chcesz zrobić sobie przerwę w zabawie lub nabrać sił na kolejną dawkę
           emocji? Zatrzymaj się w jednym z barów usytuowanych na terenie całego
           Łeba Parku. Najmłodsi i ich rodzice mają do wyboru kilka restauracji.
-          W menu Dino frytki, Dino pizza, Dino kiełbaski, Dino Hamburgery i
+          W menu frytki, pizza, Hamburgery i
           zestawy obiadowe, które przekonają nawet największego niejadka.
         </p>
         <p>
           Fast Food – położony w pobliżu wejścia, jest doskonałym miejscem, aby
           rozpocząć lub zakończyć dzień w Łeba Park.
           <br />
-          Bar Hobbitów, Gospoda, Lodziarnia, Naleśnikarnia
+          Gospoda, Lodziarnia, Naleśnikarnia
         </p>
       </div>
       <div className="news-item">
