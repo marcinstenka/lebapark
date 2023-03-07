@@ -141,7 +141,7 @@ const AttractionsDesktop = ({ AttractionsRef }) => {
           
         </div>
         <div className="attraction">
-          <h3>Pojazd</h3>
+          <h3>Pojazd bajkowy</h3>
           <p>
             Wybierz się z nami w podróż do krainy bajek. 
           </p>
