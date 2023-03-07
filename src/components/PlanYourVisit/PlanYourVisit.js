@@ -21,7 +21,7 @@ const PlanYourVisit = ({ VisitRef, AttractionsRef }) => {
 					</div>
 				</Scene>
 				<p className='visit-text'>
-					Park Dinozaurów w Łebie to <strong>40</strong> ha świat zabawy dla
+					Park Dinozaurów w Łebie to świat zabawy dla
 					całej rodziny, wspaniałe trasy pełne przygód i atrakcji, mnóstwo
 					świetnej rozrywki.
 					<br />
