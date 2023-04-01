@@ -21,9 +21,8 @@ const PlanYourVisit = ({ VisitRef, AttractionsRef }) => {
 					</div>
 				</Scene>
 				<p className='visit-text'>
-					Park Dinozaurów w Łebie to świat zabawy dla
-					całej rodziny, wspaniałe trasy pełne przygód i atrakcji, mnóstwo
-					świetnej rozrywki.
+					Park Dinozaurów w Łebie to świat zabawy dla całej rodziny, wspaniałe
+					trasy pełne przygód i atrakcji, mnóstwo świetnej rozrywki.
 					<br />
 					<br />
 					Naturalne walory Parku i bliskość morza czynią dzień, przeznaczony na
@@ -64,7 +63,7 @@ const PlanYourVisit = ({ VisitRef, AttractionsRef }) => {
 					<p>park należy opuścić do 20:30</p>
 					<h4>od 28 sierpnia do 10 września: 9:00 – 16:00</h4>
 					<p>park należy opuścić do 17:30</p>
-					
+
 					<h4>od 11 września park jest nieczynny</h4>
 				</div>
 				<div className='visit-item'>
@@ -113,9 +112,9 @@ const PlanYourVisit = ({ VisitRef, AttractionsRef }) => {
 			</div>
 			<div className='visit-item visit-item-additional'>
 				<h3 className='visit-additional'>Informacje dodatkowe</h3>
-				<div className='visit-header'>
-					<img src={VisitHeader4} alt='Dodatkowe informacj, mapa parku' />
-				</div>
+				{/* <div className='visit-header'> */}
+				{/* <img src={VisitHeader4} alt='Dodatkowe informacj, mapa parku' /> */}
+				{/* </dnpm iv> */}
 				<ul>
 					<li>
 						pracownicy Łeba Parku służą w każdej chwili informacją i pomocą,
@@ -137,7 +136,7 @@ const PlanYourVisit = ({ VisitRef, AttractionsRef }) => {
 					<li>na terenie Łeba Parku obowiązuje zakaz wstępu ze zwierzętami.</li>
 				</ul>
 				{/* <a href={ParkMap} download='Mapa Parku Dinozaurów Łeba'> */}
-					{/* Pobierz <span>mapę parku</span> */}
+				{/* Pobierz <span>mapę parku</span> */}
 				{/* </a> */}
 			</div>
 			<div className='visit-separator'>
