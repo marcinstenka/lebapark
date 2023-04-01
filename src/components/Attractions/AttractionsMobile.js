@@ -72,8 +72,8 @@ const AttractionsMobile = ({ AttractionsRef }) => {
           Ścieżka edukacyjna
         </h3>
         <div className="attraction-info">
-          W sezonie 2020 udostępnimy kolejną Podróż w czasie, fascynująca
-          przygoda edukacyjna przy Magicznym Gaju- tu, podczas spaceru ścieżką
+          Podróż w czasie, fascynująca
+          przygoda edukacyjna podczas spaceru ścieżką
           edukacyjną, ze specjalnych tablic będziesz mógł poznać rodzaje drzew i
           roślinności lasu, a także dowiesz się, jak powstało życie na ziemi.
         </div>
@@ -164,7 +164,7 @@ const AttractionsMobile = ({ AttractionsRef }) => {
           <img src={Attraction11} alt="Zjeżdżalnia Boomerang" />
         </div>
         <div className="attraction-info">
-          Nowa instalacja 2020! Zjeżdżalnia Boomerang to gwarancja dobrej zabawy
+          Zjeżdżalnia Boomerang to gwarancja dobrej zabawy
           podczas długich wakacyjnych wypadów. Zjazd na pontonach bez potrzeby
           przebierania się w stroje kąpielowe !!! Idealny sposób na ochłodę w
           gorące dni! Wysokość ślizgu – 10 metrów, pontony jednoosobowe lub

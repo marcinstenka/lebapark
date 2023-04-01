@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.dc3ebf01.css",
-    "main.js": "/static/js/main.80e38c42.js",
+    "main.js": "/static/js/main.484debe8.js",
     "static/media/mapa-parku.jpg": "/static/media/mapa-parku.86966b997436259e5b17.jpg",
     "static/media/logo.png": "/static/media/logo.6483c6f51893a266cab3.png",
     "static/media/attractions_path.png": "/static/media/attractions_path.7988a3d2903b805127c8.png",
@@ -27,9 +27,9 @@
     "static/media/news-4.png": "/static/media/news-4.d9ccec3bbe3c04219843.png",
     "static/media/news-1.png": "/static/media/news-1.fe254a33dba7f4fde446.png",
     "static/media/attraction11.png": "/static/media/attraction11.ffd3bb936764553f89e5.png",
-    "static/media/attractions_end.png": "/static/media/attractions_end.03818e76600093d05579.png",
     "static/media/attraction14.png": "/static/media/attraction14.e18990ac570a9454c698.png",
     "static/media/animations_header.png": "/static/media/animations_header.d2b4fa3ab162f8191e0c.png",
+    "static/media/attractions_end.png": "/static/media/attractions_end.c2175d7e563f6b6c764d.png",
     "static/media/contact-header.png": "/static/media/contact-header.f58bb7c61bfe03a3f770.png",
     "static/media/attraction3.png": "/static/media/attraction3.95e38207590952e7f742.png",
     "static/media/visit-header3.png": "/static/media/visit-header3.eaa90be020fc73286275.png",
@@ -42,10 +42,10 @@
     "static/media/visit-link2.png": "/static/media/visit-link2.4093e20fc77f9d82ca95.png",
     "index.html": "/index.html",
     "main.dc3ebf01.css.map": "/static/css/main.dc3ebf01.css.map",
-    "main.80e38c42.js.map": "/static/js/main.80e38c42.js.map"
+    "main.484debe8.js.map": "/static/js/main.484debe8.js.map"
   },
   "entrypoints": [
     "static/css/main.dc3ebf01.css",
-    "static/js/main.80e38c42.js"
+    "static/js/main.484debe8.js"
   ]
 }

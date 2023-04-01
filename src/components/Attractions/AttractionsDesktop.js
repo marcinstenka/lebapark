@@ -112,7 +112,7 @@ const AttractionsDesktop = ({ AttractionsRef }) => {
         <div className="attraction">
           <h3>Zjeżdżalnia Boomerang</h3>
           <p>
-            NOWA INSTALACJA 2020! Zjeżdżalnia Boomerang to gwarancja dobrej
+            Zjeżdżalnia Boomerang to gwarancja dobrej
             zabawy podczas długich wakacyjnych wypadów. Zjazd na pontonach bez
             potrzeby przebierania się w stroje kąpielowe! Idealny sposób na
             ochłodę w gorące dni! Wysokość ślizgu – 10 metrów, pontony
