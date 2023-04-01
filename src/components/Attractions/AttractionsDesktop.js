@@ -50,8 +50,8 @@ const AttractionsDesktop = ({ AttractionsRef }) => {
         <div className="attraction">
           <h3>Ścieżka edukacyjna</h3>
           <p>
-            W sezonie 2020 udostępnimy kolejną Podróż w czasie, fascynująca
-            przygoda edukacyjna przy Magicznym Gaju- tu, podczas spaceru ścieżką
+            Podróż w czasie, fascynująca
+            przygoda edukacyjna podczas spaceru ścieżką
             edukacyjną, ze specjalnych tablic będziesz mógł poznać rodzaje drzew
             i roślinności lasu, a także dowiesz się, jak powstało życie na
             ziemi.
