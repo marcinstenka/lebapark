@@ -136,9 +136,9 @@ const PlanYourVisit = ({ VisitRef, AttractionsRef }) => {
 					</li>
 					<li>na terenie Łeba Parku obowiązuje zakaz wstępu ze zwierzętami.</li>
 				</ul>
-				<a href={ParkMap} download='Mapa Parku Dinozaurów Łeba'>
-					Pobierz <span>mapę parku</span>
-				</a>
+				{/* <a href={ParkMap} download='Mapa Parku Dinozaurów Łeba'> */}
+					{/* Pobierz <span>mapę parku</span> */}
+				{/* </a> */}
 			</div>
 			<div className='visit-separator'>
 				<img src={Separator2} alt='Koniec sekcji Zaplanuj wizytę' />

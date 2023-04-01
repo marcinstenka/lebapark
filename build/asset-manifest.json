@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.dc3ebf01.css",
-    "main.js": "/static/js/main.a0472664.js",
+    "main.js": "/static/js/main.a9164e53.js",
     "static/media/mapa-parku.jpg": "/static/media/mapa-parku.86966b997436259e5b17.jpg",
     "static/media/logo.png": "/static/media/logo.6483c6f51893a266cab3.png",
     "static/media/attractions_path.png": "/static/media/attractions_path.7988a3d2903b805127c8.png",
@@ -42,10 +42,10 @@
     "static/media/visit-link2.png": "/static/media/visit-link2.4093e20fc77f9d82ca95.png",
     "index.html": "/index.html",
     "main.dc3ebf01.css.map": "/static/css/main.dc3ebf01.css.map",
-    "main.a0472664.js.map": "/static/js/main.a0472664.js.map"
+    "main.a9164e53.js.map": "/static/js/main.a9164e53.js.map"
   },
   "entrypoints": [
     "static/css/main.dc3ebf01.css",
-    "static/js/main.a0472664.js"
+    "static/js/main.a9164e53.js"
   ]
 }
