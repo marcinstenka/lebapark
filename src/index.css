@@ -21,6 +21,9 @@ body {
 #root {
 	overflow: hidden;
 }
+.bold{
+	font-weight: bold;
+}
 .cookies {
 	display: flex;
 	align-items: center;
