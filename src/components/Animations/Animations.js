@@ -24,9 +24,7 @@ const Animations = ({ AnimationsRef }) => {
         <p className="animation-text">
           Bajkowa podróż z wesołymi klaunami na krańce świata. W ciągu dnia
           podróże realizowane są minimum 4 razy dziennie (lipiec-sierpień: od
-          godz. 11.30 codziennie, maj-czerwiec: od poniedziałku do piątku od
-          godz. 11.00, w weekendy początek od godz. 11.30), możesz dołączyć w
-          każdej chwili.
+          godz. 11.30 codziennie, maj od godz. 11.00 w soboty i niedziele, czerwiec od godz. 11.00 codziennie).
           <br />
           <br />
           Po zakończeniu podróży każdy uczeń otrzyma Certyfikat Podróżnika.
