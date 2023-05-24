@@ -19,7 +19,6 @@ const Hero = ({ HeroRef }) => {
         <h2 className="covid-button">KUP BILET ONLINE</h2>
       </div>
       <div className="hero-lead">
-        <p className='lead-info bold'>Uwaga!<br/>W związku z przebudową drogi i związane z tym utrudnienia od 24.04 - 27.04.2023 Park będzie nieczynny.</p>
         <p className="lead-info">
           Wizyta u nas to niezwykła, fantastyczna przygoda w przeszłość, aż do
           epoki kredy. Tylko w Łebie w Parku Dinozaurów spotkasz
