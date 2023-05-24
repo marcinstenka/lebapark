@@ -3,18 +3,18 @@ import Covid from '../../assets/hero.png';
 import Lead from '../../assets/lead.png';
 import { Scene } from 'react-scrollmagic';
 const Hero = ({ HeroRef }) => {
-  return (
-    <div className="hero-container" ref={HeroRef}>
-      <Scene duration={850} classToggle={['.nav-1', 'active']}>
-        <div className="hero-logo">
-          <img src={Logo} alt="Logo parku dinozaurów Łeba" />
-        </div>
-      </Scene>
-      <div className="hero-covid">
-        <img
-          src={Covid}
-          alt="Informacje o pracy parku podczas pandemii oraz możliwość zakupienia biletu online"
-        />
+	return (
+		<div className='hero-container' ref={HeroRef}>
+			<Scene duration={850} classToggle={['.nav-1', 'active']}>
+				<div className='hero-logo'>
+					<img src={Logo} alt='Logo parku dinozaurów Łeba' />
+				</div>
+			</Scene>
+			<div className='hero-covid'>
+				<img
+					src={Covid}
+					alt='Informacje o pracy parku podczas pandemii oraz możliwość zakupienia biletu online'
+				/>
 
         <h2 className="covid-button">KUP BILET ONLINE</h2>
       </div>
